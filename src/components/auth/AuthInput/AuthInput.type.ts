@@ -1,6 +1,8 @@
+import React from "react";
+
 export type AuthInputProps = {
     value?: string;
-    onChange?: (value?: string) => void;
+    onChange?: React.Dispatch<React.SetStateAction<string>>;
     placeholder?: string;
     label?: string;
     type?: 'password' | 'email' | 'text';

@@ -6,12 +6,17 @@ export const globalStyles = StyleSheet.create({
         flex: 1,
         backgroundColor: colors.background,
         paddingHorizontal: 16,
-        paddingVertical: 16,
+        paddingTop: 64,
+        gap:16,
     },
     authContainer: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center',
-        width: '100%',
+        paddingVertical: 40,
+    },
+    linkContainer: {
+        alignItems: 'flex-end',
+        marginTop: 12,
+        marginBottom: 24,
     },
 });

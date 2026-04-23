@@ -6,12 +6,12 @@ export const fontFamily = {
 
 export const typography = {
     title: {
-        fontSize: 28,
+        fontSize: 26,
         fontWeight: '700' as const,
         lineHeight: 36,
     },
     subtitle: {
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: '400' as const,
         lineHeight: 24,
     },

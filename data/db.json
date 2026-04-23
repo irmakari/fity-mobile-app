@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@fity.com",
+      "password": "123456",
+      "name": "Irmak"
+    }
+  ],
+  "todayPlan": [
+    {
+      "id": "1",
+      "userId": 1,
+      "hydration": {
+        "title": "Hydration",
+        "current": 1.2,
+        "target": 2,
+        "unit": "L",
+        "progress": 0.6
+      },
+      "workout": {
+        "title": "Leg workout",
+        "completedMinutes": 15,
+        "totalMinutes": 25,
+        "remainingExercises": 2,
+        "progress": 0.6
+      },
+      "nutrition": {
+        "title": "Nutrition",
+        "currentCalories": 1300,
+        "targetCalories": 2100,
+        "progress": 0.62
+      }
+    }
+  ],
+  "hydration-goals": [
+    {
+      "id": "1",
+      "userId": 1,
+      "dailyGoalMl": 2000,
+      "unit": "L",
+      "updatedAt": "2026-04-23"
+    }
+  ],
+  "hydration-logs": [
+    {
+      "id": "1",
+      "userId": 1,
+      "amountMl": 500,
+      "loggedAt": "2026-04-23T09:00:00",
+      "note": "Morning water"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "amountMl": 1000,
+      "loggedAt": "2026-04-23T13:30:00",
+      "note": "After lunch"
+    },
+    {
+      "userId": 1,
+      "amountMl": 750,
+      "loggedAt": "2026-04-23T13:33:29.455Z",
+      "id": "gWeDsgbRjwQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
